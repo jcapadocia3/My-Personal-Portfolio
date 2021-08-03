@@ -1,0 +1,124 @@
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(43, 43, 43);
+    padding: 30px 30px 30px 0px;
+    border-bottom: 5px solid rgb(3 146 198 / 1);
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    padding: 10px 5px 10px 50px;
+    color: white;
+    background-color:rgb(3 146 198 / 1);
+}
+
+nav ul li {
+    display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#fastforward {
+    color: rgb(3 146 198 / 1);
+    padding: 20px
+}
+
+.first {
+    display: flex;
+    flex: wrap;
+    /* Borders are for reference */
+    border: 2px solid black;
+}
+
+.first-1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    width:200px;
+    color: rgb(43, 43, 43);
+    border-right:5px solid rgb(43, 43, 43);
+    margin: 10px 0px 10px 100px;
+    padding-right: 10px;
+    text-align: right;
+    /* Borders are for reference */
+    border: 2px solid black;
+}
+
+.first-1 span {
+    display:block;
+    text-align: right;
+}
+
+.first-2 {
+    margin: 10px 0px 10px 0;
+    padding-left: 10px;
+    width: 800px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(43, 43, 43);
+    /* Borders are for reference */
+    border: 2px solid black;
+}
+
+.second {
+    display:flex;
+    flex-wrap: wrap;
+    /* Borders are for reference */
+    border: 2px solid black;
+}
+
+.second-1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    width: 200px;
+    color: rgb(43, 43, 43);
+    border-right:5px solid rgb(43, 43, 43);
+    margin: 10px 0px 10px 100px;
+    padding-right: 10px;
+    text-align: right;
+    /* Borders are for reference */
+    border: 2px solid black;
+}
+
+.second a {
+    /* Borders are for reference */
+    border: 2px solid black;
+    padding-left: 10px;
+}
+
+.third {
+    display: flex;
+    flex: wrap;
+    /* Borders are for reference */
+    border: 2px solid black;
+}
+
+.third-1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    width: 200px;
+    color: rgb(43, 43, 43);
+    border-right:5px solid rgb(43, 43, 43);
+    margin: 10px 0px 10px 100px;
+    padding-right: 10px;
+    text-align: right;
+    /* Borders are for reference */
+    border: 2px solid black;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer ul li {
+    display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px 0 0 10px;
+    /* Borders are for reference */
+    border: 2px solid black;
+}
