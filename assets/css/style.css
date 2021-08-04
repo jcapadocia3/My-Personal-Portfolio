@@ -20,18 +20,26 @@ nav ul li {
     display: inline;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
+    color: rgb(3 146 198 / 1);
+    padding: 20px
 }
 
 #fastforward {
     color: rgb(3 146 198 / 1);
-    padding: 20px
+}
+
+#background {
+    border-bottom: 5px solid rgb(43, 43, 43);
+    margin-bottom: 20px;
 }
 
 .first {
     display: flex;
     flex: wrap;
-    /* Borders are for reference */
-    border: 2px solid black;
+    align-content: center;
+    margin-bottom: 20px;
+    /* Borders are for reference
+    border: 2px solid black; */
 }
 
 .first-1 {
@@ -39,18 +47,17 @@ nav ul li {
     font-size: 45px;
     width:200px;
     color: rgb(43, 43, 43);
-    border-right:5px solid rgb(43, 43, 43);
     margin: 10px 0px 10px 100px;
     padding-right: 10px;
     text-align: right;
-    /* Borders are for reference */
-    border: 2px solid black;
+    /* Borders are for reference
+    border: 2px solid black; */
 }
 
-.first-1 span {
+/* .first-1 span {
     display:block;
     text-align: right;
-}
+} */
 
 .first-2 {
     margin: 10px 0px 10px 0;
@@ -58,15 +65,18 @@ nav ul li {
     width: 800px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(43, 43, 43);
-    /* Borders are for reference */
-    border: 2px solid black;
+    border-left:5px solid rgb(43, 43, 43);
+    padding-left: 40px;
+    /* Borders are for reference
+    border: 2px solid black; */
 }
 
 .second {
     display:flex;
     flex-wrap: wrap;
-    /* Borders are for reference */
-    border: 2px solid black;
+    margin-bottom: 20px;
+    /* Borders are for reference
+    border: 2px solid black; */
 }
 
 .second-1 {
@@ -74,25 +84,29 @@ nav ul li {
     font-size: 45px;
     width: 200px;
     color: rgb(43, 43, 43);
-    border-right:5px solid rgb(43, 43, 43);
     margin: 10px 0px 10px 100px;
     padding-right: 10px;
     text-align: right;
-    /* Borders are for reference */
-    border: 2px solid black;
+    /* Borders are for reference
+    border: 2px solid black; */
 }
 
-.second a {
-    /* Borders are for reference */
-    border: 2px solid black;
-    padding-left: 10px;
+.second div {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    border-left:5px solid rgb(43, 43, 43);
+    margin: 10px 0px 10px 0;
+    /* Borders are for reference
+    border: 2px solid black; */
 }
 
 .third {
     display: flex;
     flex: wrap;
-    /* Borders are for reference */
-    border: 2px solid black;
+    margin: 20px 0 20px 0;
+    /* Borders are for reference
+    border: 2px solid black; */
 }
 
 .third-1 {
@@ -100,25 +114,35 @@ nav ul li {
     font-size: 45px;
     width: 200px;
     color: rgb(43, 43, 43);
-    border-right:5px solid rgb(43, 43, 43);
     margin: 10px 0px 10px 100px;
     padding-right: 10px;
     text-align: right;
-    /* Borders are for reference */
-    border: 2px solid black;
+    /* Borders are for reference
+    border: 2px solid black; */
+}
+
+#third-2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(43, 43, 43);
 }
 
 footer ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+    align-content: center;
+    border-left:5px solid rgb(43, 43, 43);
+    margin: 10px 0px 10px 0;
+    padding-left: 40px;
 }
 
 footer ul li {
     display: inline;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
-    padding: 10px 0 0 10px;
-    /* Borders are for reference */
-    border: 2px solid black;
+    padding: 0 20px 0 10px;
+    /* Borders are for reference
+    border: 2px solid black; */
 }
+
