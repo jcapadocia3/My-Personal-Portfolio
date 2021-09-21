@@ -256,6 +256,15 @@ footer ul li {
 }
 
 @media screen and (max-width: 895px) {
+
+    body {
+        width: 230%;
+    }
+
+    h1 {
+        width: 80%;
+    }
+
     .second-2 img {
         width: 380px;
         height: 290px;        
@@ -294,4 +303,14 @@ footer ul li {
         text-align: left;
         margin-left: 50px;
     }
+
+    .first,
+    .second {
+        padding: 0 20px 0 20px;
+    }
+
+    .third {
+        display: none;
+    }
+
 }
