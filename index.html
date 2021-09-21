@@ -3,6 +3,7 @@
    
    <head>
       <title>My Portfolio</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
       <link rel="stylesheet" href="./assets/css/reset.css">
       <link rel="stylesheet" href="./assets/css/style.css">
    </head>
@@ -10,10 +11,23 @@
     <body>
         <nav>
             <h1>James Capadocia</h1>
-            <ul>
+            <ul class="navLinks">
                 <li><a id="fastforward" href="#aboutme">About Me</a></li>
                 <li><a id="fastforward" href="#work">Work</a></li>
-                <li><a id="fastforward" href="#contactme">Contact Me</a></li>
+                <!-- <li><a id="fastforward" href="#contactme">Contact Me</a></li> -->
+                <li class="dropdownCont">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Contact Me
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <p class="dropdown-item">P: 847.730.7599</p>
+                      <p class="dropdown-item">E: james.capadocia@gmail.com</p>
+                      <a class="dropdown-item blue" target=_blank href="https://linkedin.com/in/james-capadocia-156367217">LinkedIn</a>
+                      <a class="dropdown-item blue" target=_blank href="https://github.com/jcapadocia3">Github</a>
+                    </div>
+                </div>
+                </li>
                 <li><a id="fastforward" target=_blank href="./assets/images/Updated Resume.pdf">Resume</a></li>
             </ul>
         </nav>
@@ -26,11 +40,19 @@
         <main>
             <section class="first" id="aboutme">
                 <h2 class="first-1">About <span>Me</span></h2>
-                <p class="first-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <p class="first-2">Thanks for visiting my portfolio page! My name is James. I am an aspiring full stack web and app developer. Currently, I am a student at Northwestern University in a 6 month bootcamp program to earn a certificate in Coding and Full Stack Web/App Development. This type of work has always intrigued me, and after 32 years in this world, I was able to convince myself that, "It's never too late for school, nor to follow your dreams." While I understand that this field of work is not easy, it's what makes me happy, and each class I attend only proves this further for myself. With an extensive professional background in sales and servicing (see <a id="fastforward" target=_blank href="./assets/images/Updated Resume.pdf">Resume</a> linked above), it excites me to use this experience in this field of work to create websites and apps alongside with clients and to help make, what starts as a simple vision, a reality.
                     <br><br>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    As my time in this class stands, I currently am well versed in the skills below:
                     <br><br>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    - HTML
+                    <br>
+                    - CSS
+                    <br>
+                    - Javascript
+                    <br>
+                    - Client-side and server-side APIs
+                    <br><br>
+                    With still so much time left in the program, I am excited to continue to master these skills, as well as learn new skills, to allow for further creativity in my craft.
                 </p>
             </section>
 
@@ -38,32 +60,32 @@
                 <h3 class="second-1">Work</h3>
                 <div class="wild">
                     <div class="second-2">
-                        <a target=_blank href="https://github.com/jcapadocia3/prework-about-me">
-                        <img src="./assets/images/IMG_1025c.jpg" alt="x"></a>
-                        <p>PROJECT 1</p>
+                        <a target=_blank href="https://github.com/nlaramee120/Make-My-Day">
+                        <img src="./assets/images/make-my-day1.png" alt="x"></a>
+                        <p>Make My Day (Project 1)</p>
                     </div>
                     <div class="wild-1">
                         <div class="second-3">
-                            <a target=_blank href="https://github.com/jcapadocia3/prework-about-me">
-                            <img src="./assets/images/IMG_5056c.jpg" alt="x" width="380px" height="150px"></a>
-                            <p>PROJECT 2</p>
+                            <a target=_blank href="https://github.com/jcapadocia3/Work-Day-Scheduler">
+                            <img src="./assets/images/work-day-scheduler.lnk" alt="x" width="380px" height="150px"></a>
+                            <p class="titling">Work Day Scheduler</p>
                         </div>
                         <div class="second-4">
-                            <a target=_blank href="https://github.com/jcapadocia3/prework-about-me">
-                            <img src="./assets/images/IMG_5268c.jpg" alt="x" width="380px" height="150px"></a>
-                            <p>PROJECT 3</p>
+                            <a target=_blank href="https://github.com/jcapadocia3/Code-Quiz">
+                            <img src="./assets/images/code-quiz.png" alt="x" width="380px" height="150px"></a>
+                            <p class="titling">Code Quiz!</p>
                         </div>
                     </div>
                     <div class="wild-2">
                         <div class="second-5">
                             <a target=_blank href="https://github.com/jcapadocia3/prework-about-me">
                             <img src="./assets/images/IMG_1964c.jpg" alt="x" width="380px" height="150px"></a>
-                            <p>PROJECT 4</p>
+                            <p class="titling">Coming Soon!</p>
                         </div>
                         <div class="second-6">
                             <a target=_blank href="https://github.com/jcapadocia3/prework-about-me">
                             <img src="./assets/images/IMG_4584c.jpg" alt="x" width="380px" height="150px"></a>
-                            <p>PROJECT 5</p>
+                            <p class="titling">Coming Soon!</p>
                         </div>
                     </div>
                 </div>
@@ -81,4 +103,8 @@
         </ul>
     </footer>
    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>    
+
 </html>
