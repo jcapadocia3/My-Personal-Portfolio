@@ -27,12 +27,3 @@ This project represents a portfolio webpage that a prospect may provide a compan
     <p style="color: red"> ***Please be advised, in it's current state, all images/links will redirect the user to the same exact working project/application to show that the links are are actually functional and that they are working as intended.*** </p>
 
 - The footer portion of the project contains the Contact Me section which includes the prospect's phone number, email address, and working links to their public LinkedIn and Github pages.
-
-<br>
-<br>
-<br>
-<p style="color: teal">Thanks for looking over my homework and please give me an A+ even though my HTML and CSS files probably look like a mess ;)<p>
-<br>
-<br>
-<br>
-<p style="color: mediumseagreen">Just kidding. Give me the grade I deserve, lol!<p>
