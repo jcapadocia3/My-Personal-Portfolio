@@ -27,3 +27,6 @@ This project represents a portfolio webpage that a prospect may provide a compan
     <p style="color: red"> ***Please be advised, in it's current state, all images/links will redirect the user to the same exact working project/application to show that the links are are actually functional and that they are working as intended.*** </p>
 
 - The footer portion of the project contains the Contact Me section which includes the prospect's phone number, email address, and working links to their public LinkedIn and Github pages.
+
+## License
+- Licensed under the [MIT License](LICENSE)
